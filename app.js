@@ -7,7 +7,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const tasks = data["tasks"]
-console.log(tasks)
 
 app.listen(port, (err) => {
     if (err) {
